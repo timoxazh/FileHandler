@@ -24,9 +24,9 @@
 - Склонируйте проект с GitHub, используя команду: git clone <url>
 - Откройте проекта при помощи программы IntelliJ IDEA. После чего Вы можете создать файл с помощью пункта меню Build > Build Artifact
 - Скомпилированный .jar файл помещается в папку FileHandler/out/artifacts/FileHandler_jar
-- После чего Вы можете переместить .jar файл в люое удобное для Вас место или перейти в консоли в FileHandler/out/artifacts/FileHandler_jar с помощью команды cd FileHandler/out/artifacts/FileHandler_jar
+- После чего Вы можете переместить .jar файл в люое удобное для Вас место или перейти в консоли в FileHandler/out/artifacts/FileHandler_jar с помощью команды `cd FileHandler/out/artifacts/FileHandler_jar`
 
-- Для запуска утилиты используйте java -jar FileHandler.jar in1.txt in2.txt
+- Для запуска утилиты используйте `java -jar FileHandler.jar in1.txt in2.txt`
 - - Дополнительные опции:
 
   `-o <путь>`: задает путь для результатов.\
@@ -35,4 +35,4 @@
   `-s`: выводит краткую статистику по каждому типу данных.\
   `-f`: выводит полную статистику по каждому типу данных.
 
-- Пример команды для запуска утилиты c дополнительными опциями: -jar FileHandler.jar -s -p same_prefix- -f in1.txt in2.txt
+- Пример команды для запуска утилиты c дополнительными опциями: `-jar FileHandler.jar -s -p same_prefix- -f in1.txt in2.txt`
